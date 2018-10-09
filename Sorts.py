@@ -9,7 +9,7 @@ def MergeSort(A:[int],p:int,r:int):
         
         Merge(A,p,q,r)
 
-    return A
+    
 
 def Merge(A:[int],ini:int,mit:int,fin:int):
 
@@ -36,4 +36,3 @@ def Merge(A:[int],ini:int,mit:int,fin:int):
             A[k]=R[j]
             j+=1
 
-    return A 
