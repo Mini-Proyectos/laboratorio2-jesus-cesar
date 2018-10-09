@@ -3,11 +3,11 @@ def MergeSort(A:[int],p:int,r:int):
         
         q=(p+r)//2
         
-        mergesort(A,p,q)
+        MergeSort(A,p,q)
         
-        mergesort(A,q,r)
+        MergeSort(A,q,r)
         
-        merge(A,p,q,r)
+        Merge(A,p,q,r)
 
     return A
 
