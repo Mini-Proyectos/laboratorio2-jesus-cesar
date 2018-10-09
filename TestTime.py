@@ -1,14 +1,3 @@
-'''import time
-inicio = time.time()
-
-for i in range(1,n):
-	j = i+j 
-fin = time.time()
-
-tiempoTranscurrido = (fin-inicio) * 1000 # para expresarlo en milisegundos
-
-print("Tiempo: " + str(tiempoTranscurrido))'''
-
 import time
 import sys
 import random
@@ -27,7 +16,7 @@ if MetodoDeOrdenamiento == "MergeSort":
 	
 	TiempoInicial = time.time()
 	
-	ListaOrdenada = MergeSort (Lista, 0, NumeroDeElementos)
+	MergeSort (Lista, 0, NumeroDeElementos)
 
 	TiempoFinal = time.time()
 
@@ -35,7 +24,7 @@ elif MetodoDeOrdenamiento == "InsertionSort":
 
 	TiempoInicial = time.time() 
 
-	ListaOrdenada = InsertionSort(Lista, 0, NumeroDeElementos) 	
+	InsertionSort(Lista, 0, NumeroDeElementos) 	
 
 	TiempoFinal = time.time() 
 
