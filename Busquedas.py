@@ -7,5 +7,4 @@ def InsertionSort (a:[int],p:int,r:int):
                         a[i+1]=a[i]
                         i-=1
                 a[i+1]=key
-        return a
 
